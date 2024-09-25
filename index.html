@@ -3,135 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wasim Shehadeh - CV</title>
+    <title>Wasim Shehadeh - Full Stack Developer</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
+        header {
+            background-color: #2196f3;
+            color: white;
+            padding: 20px 0;
             text-align: center;
-            color: #333;
         }
-        .contact-info {
-            text-align: center;
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
             margin-bottom: 20px;
         }
-        .contact-info p {
-            margin: 5px 0;
+        .container {
+            margin-top: 30px;
         }
-        .section {
-            margin: 20px 0;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        .section h3 {
-            color: #444;
-            margin-top: 10px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #333;
-            color: white;
+        .card-title {
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Wasim Shehadeh</h1>
 
-        <div class="contact-info">
-            <p>Email: <a href="mailto:waseems860@gmail.com">waseems860@gmail.com</a></p>
-            <p>Phone: (+963) 999649128</p>
-            <p>Location: Damascus, Syria</p>
-        </div>
+<!-- Header Section with Avatar -->
+<header>
+    <img src="profile.jpg" alt="Wasim Shehadeh Avatar">
+    <h1>Wasim Shehadeh</h1>
+    <p>Full Stack Developer</p>
+</header>
 
-        <div class="section">
-            <h2>Work Experience</h2>
-            
-            <h3>Full Stack Developer - NT Technologies GmbH (01/2023 – Current)</h3>
-            <ul>
-                <li>API Development with ASP.NET Core, designed and developed RESTful APIs for backend services.</li>
-                <li>Managed SQL Server databases using Entity Framework for CRUD operations.</li>
-                <li>Integrated MongoDB as a NoSQL database for high-volume data storage.</li>
-                <li>Improved application performance with Redis caching.</li>
-                <li>Managed real-time communications using WebSocket and SignalR.</li>
+<!-- Main Content -->
+<div class="container">
+    
+    <!-- Contact Information Section -->
+    <div class="card">
+        <div class="card-content">
+            <span class="card-title">Contact Information</span>
+            <ul class="collection">
+                <li class="collection-item"><strong>Email:</strong> <a href="mailto:waseems860@gmail.com">waseems860@gmail.com</a></li>
+                <li class="collection-item"><strong>Phone:</strong> +963 999 649 128</li>
+                <li class="collection-item"><strong>Location:</strong> Damascus, Syria / Ernstthal, Germany</li>
+                <li class="collection-item"><strong>Nationality:</strong> Syrian, Palestinian</li>
             </ul>
-
-            <h3>Information System Manager - Syrian Society for Social Development (01/2016 – Current)</h3>
-            <ul>
-                <li>Led development of multiple ERP systems, integrating API services for large datasets.</li>
-                <li>Collaborated with cross-functional teams for innovative software solutions.</li>
-                <li>Worked on microservices-based backend systems using C#, .NET Core, and SQL Server.</li>
-            </ul>
-
-            <h3>Full Stack Developer - Bookify Website (01/2023 – 10/2023)</h3>
-            <ul>
-                <li>Developed responsive web applications with ASP.NET MVC Core.</li>
-                <li>Integrated Cloudinary API for image management.</li>
-                <li>Implemented WhatsApp messaging functionality via the WhatsApp API.</li>
-            </ul>
-
-            <h3>Software Developer - National Fund for Relief of Earthquake Victims (06/2023 – Current)</h3>
-            <ul>
-                <li>Developed web applications using ASP.NET MVC Core and integrated Chart.js for dynamic charts.</li>
-                <li>Added Excel export functionality for reporting with OpenXML library.</li>
-                <li>Implemented real-time user chat using SignalR.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Education</h2>
-            <h3>Master in Web Technology - Syrian Virtual University</h3>
-            <h3>Degree in Telecommunication - Damascus University (2004 – 2009)</h3>
-        </div>
-
-        <div class="section">
-            <h2>Certifications & Courses</h2>
-            <ul>
-                <li>C++ Course - Damascus University</li>
-                <li>MCSE Course - New Horizon</li>
-                <li>CCNA Course - New Horizon</li>
-                <li>Java & Android Application Course - New Horizon</li>
-                <li>Flutter & Dart Development Course - Ousos</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Skills</h2>
-            <h3>Programming Languages</h3>
-            <p>Dart, C++, C#, Java, HTML, JavaScript, JQUERY, CSS</p>
-
-            <h3>Frameworks</h3>
-            <p>.NET/.NET Core, ASP.NET MVC, Flutter</p>
-
-            <h3>Databases</h3>
-            <p>SQL Server, MongoDB</p>
-
-            <h3>Version Control</h3>
-            <p>Git, GitHub, GitBucket</p>
-
-            <h3>Other</h3>
-            <p>Docker, Redis, SignalR, WebSocket, Hangfire</p>
         </div>
     </div>
 
-    <footer>
-        <p>Wasim Shehadeh - 2024</p>
-    </footer>
+    <!-- Work Experience Section -->
+    <div class="card">
+        <div class="card-content">
+            <span class="card-title">Work Experience</span>
+            <ul class="collection">
+                <li class="collection-item">
+                    <strong>Full Stack Developer at NT Technologies GmbH</strong> (Jan 2023 – Present, Germany)
+                    <p>Designed and developed RESTful APIs, worked with SQL Server, integrated NoSQL databases, and implemented caching and real-time communication solutions using WebSocket and SignalR.</p>
+                </li>
+                <li class="collection-item">
+                    <strong>Information System Manager at Syrian Society for Social Development (SSSD)</strong> (Jan 2016 – Present, Syria)
+                    <p>Led the development of ERP systems, API development for Kobo Toolbox, and SQL database management.</p>
+                </li>
+                <li class="collection-item">
+                    <strong>Full Stack Developer at Bookify Website</strong> (Jan 2023 – Oct 2023, Syria)
+                    <p>Developed a responsive web app, integrated Cloudinary API, and improved data handling with DataTables and Hangfire for scheduling notifications.</p>
+                </li>
+                <li class="collection-item">
+                    <strong>Software Developer at National Fund for Relief of Earthquake Victims</strong> (Jun 2023 – Present, Syria)
+                    <p>Created a dynamic web application with ASP.NET MVC Core, real-time chat, and visual data analytics using Chart.js and Excel export.</p>
+                </li>
+                <li class="collection-item">
+                    <strong>IT Engineer + Microwave Engineer + Operation Engineer at ORTAS</strong> (Jun 2011 – Jun 2017, Syria)
+                    <p>Installed and managed hardware/software systems, set up accounts, and resolved network issues.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="card">
+        <div class="card-content">
+            <span class="card-title">Skills</span>
+            <ul class="collection">
+                <li class="collection-item"><strong>Programming Languages:</strong> Dart, C++, C#, Java, HTML, JavaScript, JQuery, CSS</li>
+                <li class="collection-item"><strong>Frameworks:</strong> .NET/.NET Core, ASP.NET MVC, Flutter</li>
+                <li class="collection-item"><strong>Databases:</strong> SQL, MS-SQL, MongoDB</li>
+                <li class="collection-item"><strong>Other Tools:</strong> Docker, Azure, Git, Redis, SignalR, Hangfire</li>
+                <li class="collection-item"><strong>Languages:</strong> Arabic (native), English (C1)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="card">
+        <div class="card-content">
+            <span class="card-title">Education</span>
+            <ul class="collection">
+                <li class="collection-item"><strong>Master in Web Technology</strong> - Syrian Virtual University</li>
+                <li class="collection-item"><strong>A Degree in Telecommunication</strong> - Damascus University (2004-2009)</li>
+                <li class="collection-item"><strong>MCSE, CCNA Courses</strong> - New Horizon</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<!-- Materialize JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>
 </html>
